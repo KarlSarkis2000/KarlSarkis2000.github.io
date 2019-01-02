@@ -1,0 +1,444 @@
+@charset "utf-8";
+/* CSS Document */
+.title1{
+color : rgb(100,100,100);         
+font-size: 100%;           
+              }
+.title2{
+color : rgb(100,100,100);         
+margin-left: 1%;
+font-size: 100%;
+}
+.logo{
+width:30%; 
+margin-top: 1%;
+}
+.navclass{
+background-color: lightgreen;
+width: 100%;
+}
+#menu ul , #menu li , #menu .sousMenu{
+font-size: 100%;
+}
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+}
+#menu li {
+    display: inline;
+
+
+}
+#menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+#menu li a:hover {
+    background-color: green;
+}
+#menu .sousMenu
+{
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              border: 0;
+              display: none;
+			  background-color:lightgreen;
+
+}
+#menu .sousMenu li
+{
+              float: none;
+              margin: 0;
+              padding: 0;
+              border: 0;
+              width: 100%;
+              border-top: 1px solid transparent;
+              border-right: 1px solid transparent;
+              font-size: 100%;
+}
+#menu .sousMenu li a:link,
+#menu .sousMenu li a:visited 
+{
+              display: block;
+              color: #FFFFFF;
+              margin: 0;
+              border: 0;
+              text-decoration: none;
+}
+#menu .sousMenu li a:hover
+{
+              background-image: none;
+              background-color: green;
+			  
+}
+#menu li:hover > .sousMenu { 
+              display: block; 
+}
+.para{
+background-image:url(../images/txtbackground.jpg);    
+border-color:#A0EFAB;
+opacity:0.75;
+width: 50%;
+}
+.para b{
+text-shadow: 1px 1px 8px rgba(58,204,61,1.00);
+}
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+.mySlides {
+              display: none;
+}
+.gallery {
+width:100%;
+height:300px;
+}
+.pic1{
+border: 2px solid grey; 
+position:relative;
+width:304;
+float:left;
+margin-left:15%;
+ }
+.pic1:hover
+	{
+	
+		-moz-imagee-shadow: 0 0 10px #77CB79;
+		-webkit-imagee-shadow: 0 0 10px #77CB79;
+		box-shadow: 0 0 10px #ccc;
+
+}
+.pic2{
+
+border: 2px solid grey;
+position:relative;
+width:304; 
+float:left;
+margin-left:2%;
+}
+.pic2:hover
+{
+ 
+		-moz-imagee-shadow: 0 0 10px #77CB79;
+		-webkit-imagee-shadow: 0 0 10px #77CB79;
+		box-shadow: 0 0 10px #ccc;
+
+}
+ .pic3{
+border: 2px solid grey; 
+	width:304;
+	position:relative;
+	float:left;
+	margin-left:2%;
+ }
+.pic3:hover
+	{
+		-moz-imagee-shadow: 0 0 10px #77CB79;
+		-webkit-imagee-shadow: 0 0 10px #77CB79;
+		box-shadow: 0 0 10px #ccc;
+
+}
+.prep{
+width: 20em;
+height: 30em;
+overflow: scroll;
+margin-top: 2em;
+margin-left: 20em;
+}
+.prep2{
+width: 20em;
+height: 30em;
+overflow: scroll;
+margin-top: 2em;
+}
+
+
+.ectomorph{
+	box-shadow : 1em 1em 1em  #7C7C7C;
+	font-size:larger;
+	text-align:center;
+	background-color:lightgrey;
+	margin-bottom:15%;
+	margin-left:5%;
+	border-radius:2%;
+	
+}
+.ectomorph tr {
+	color:  grey;
+}
+.ectomorph tr th{
+	padding-right:1%;
+}
+#myCarousel{
+width:50%;
+}
+
+#ecto{
+	
+	font-size:x-medium;
+	color: #5A5858;
+	width: 100%;
+	box-shadow : 1em 1em 1em  #7C7C7C;
+background-color:white;
+float:left;	
+margin-right:5%;
+margin-left:5%;
+margin-top:1%;
+padding:2%;
+border-radius:2%;
+	
+}
+#meso{
+		font-size:x-medium;
+	color: #5A5858;
+	width: 100%;
+	box-shadow : 1em 1em 1em  #7C7C7C;
+background-color:white;	
+margin-right:5%;
+margin-left:1%;
+margin-top:1%;
+margin-bottom:5%;
+padding:2%;
+border-radius:2%;		
+}
+}
+@media only screen and (min-width: 991px){
+.prep2{
+margin-left: 24em;
+}
+.gallery{
+height:100%;
+width:300px;
+text-align:center;
+
+}
+.pic1{
+	margin-left:15%;
+}
+.pic2{
+		margin-left:15%;
+}
+.pic3{
+		margin-left:15%;
+}
+footer{
+font-size: 100%;
+position:relative;
+height:50px;
+margin-top:275px;
+}
+}
+@media only screen and (max-width: 767px){
+.title1{
+color : grey;         
+font-size: 100%;
+}
+.title2{
+color : grey;         
+margin-left: 40%;
+font-size: 100%;
+}
+.logo{
+width:100%; 
+margin-top: 5%;
+}
+.navclass{
+background-color: lightgreen;
+width: 100%;
+}
+.gallery{
+height:100%;
+width:300px;
+text-align:center;
+
+}
+.pic1{
+	margin-left:30%;
+	margin-bottom:5%;
+}
+.pic2{
+		margin-left:30%;
+		margin-bottom:5%;
+
+}
+.pic3{
+		margin-left:30%;
+		margin-bottom:5%;
+}
+#menu lu , #menu li , #menu .sousMenu {
+font-size: 80%;
+}
+#menu ul {
+    color:black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightgreen;
+}
+#menu li {
+    display: inline;
+	  color:black;
+}
+ #myCarousel{
+width:100%;
+}
+#menu li a {
+    display: block;
+    color: darkgreen;
+    text-align: center;
+    padding: 10px 30px 10px 10px;
+    text-decoration: none;
+	  color:black;
+}
+ 
+#menu li a:hover {
+    background-color: green ;
+}
+#menu .sousMenu
+{
+              list-style-type: none;
+			    color:black;
+              margin: 0;
+              padding: 0;
+              border: 0;
+              display: none; 
+              padding: 10px 40px 0px 0px;
+              font-size: 100%;
+}
+ 
+#menu .sousMenu li
+{
+              float: none;
+              margin: 0;
+              padding: 0;
+              border: 0;
+              width: 100%;
+              border-top: 1px solid transparent;
+              border-right: 1px solid transparent;
+}
+ 
+#menu .sousMenu li a:link,
+#menu .sousMenu li a:visited 
+{
+              display: block;
+              color: #000;
+              margin: 0;
+              border: 0;
+              text-decoration: none;
+}
+ 
+#menu .sousMenu li a:hover
+{
+              background-image: none;
+              background-color: green;
+}
+ 
+ 
+#menu li:hover > .sousMenu { 
+              display: block; 
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+.para{
+background-color: lightyellow;
+border-radius: 10%;    
+width: 50%;
+}
+ 
+.para b{
+text-shadow: 1px 1px 8px green;
+}
+ 
+ 
+.slideshow-container {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+ 
+.mySlides {
+              display: none;
+              }
+              
+.text {
+  color: darkgrey;
+  font-size: 80%;
+  padding: 1em ;
+  position: absolute;
+  bottom: 1em;
+  width: 100%;
+  text-align: center;
+}
+ .picsize{
+ text-align:center;
+ }
+ .picsizee{
+ text-align:center;
+width:50%;
+ }
+.prep{
+width: 10em;
+height: 15em;
+overflow: scroll;
+margin-top: 2em;
+margin-left: 0em;
+}
+ 
+.prep2{
+width: 10em;
+height: 15em;
+overflow: scroll;
+margin-top: 2em;
+margin-left: 0em;
+}
+ 
+.picsize{
+width: 60%;
+}
+.pic{
+	position:relative;
+	padding-left:50%;
+	width:50%;
+	
+}
+footer{
+font-size: 100%;
+position:relative;
+}
+
+}
+@media only screen and (min-width: 768px) and (max-width: 990px){
+ 
+.prep{
+width: 20em;
+height: 25em;
+overflow: scroll;
+margin-top: 2em;
+margin-left: 0em;
+}
+.picsize{
+width:80%;
+}
+ 
+ 
+ 
+ 
+}
