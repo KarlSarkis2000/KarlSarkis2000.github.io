@@ -1,10 +1,10 @@
 @charset "utf-8";
 /* CSS Document */
-.title1{
+.title1{/*for the page name*/
 color : rgb(100,100,100);         
 font-size: 100%;           
               }
-.title2{
+.title2{/*for the slogan*/
 color : rgb(100,100,100);         
 margin-left: 1%;
 font-size: 100%;
@@ -28,11 +28,10 @@ font-size: 100%;
     
 }
 #menu li {
+/*foreach button*/
     display: inline;
-
-
 }
-#menu li a {
+#menu li a {/*for the word in each button*/
     display: block;
     color: black;
     text-align: center;
@@ -40,10 +39,10 @@ font-size: 100%;
     text-decoration: none;
 
 }
-#menu li a:hover {
+#menu li a:hover {/*when hovering on a button*/
     background-color: green;
 }
-#menu .sousMenu
+#menu .sousMenu/*for the sous menue*/
 {
               list-style-type: none;
               margin: 0;
@@ -64,41 +63,24 @@ font-size: 100%;
               border-right: 1px solid transparent;
               font-size: 100%;
 }
-#menu .sousMenu li a:link,
-#menu .sousMenu li a:visited 
-{
-              display: block;
-              color: #FFFFFF;
-              margin: 0;
-              border: 0;
-              text-decoration: none;
-}
-#menu .sousMenu li a:hover
+
+#menu .sousMenu li a:hover/*when hovering on a sous menue*/
 {
               background-image: none;
               background-color: green;
 			  
 }
-#menu li:hover > .sousMenu { 
-              display: block; 
-}
-.para{
+
+.para{/*for the paragraph in  the main page*/
 background-image:url(../images/txtbackground.jpg);    
 border-color:#A0EFAB;
 opacity:0.75;
 width: 50%;
 }
-.para b{
-text-shadow: 1px 1px 8px rgba(58,204,61,1.00);
-}
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
-  margin: auto;
-}
-.mySlides {
+.mySlides {/*to not display any of the 3 photos in the main page for the slide show to work*/
               display: none;
 }
+/*allignment of the linked photo in the news*/
 .gallery {
 width:100%;
 height:300px;
@@ -148,6 +130,7 @@ border: 2px solid grey;
 		box-shadow: 0 0 10px #ccc;
 
 }
+/*for the text boxes in the fastong and poison page*/
 .prep{
 width: 20em;
 height: 30em;
@@ -161,28 +144,11 @@ height: 30em;
 overflow: scroll;
 margin-top: 2em;
 }
-
-
-.ectomorph{
-	box-shadow : 1em 1em 1em  #7C7C7C;
-	font-size:larger;
-	text-align:center;
-	background-color:lightgrey;
-	margin-bottom:15%;
-	margin-left:5%;
-	border-radius:2%;
-	
-}
-.ectomorph tr {
-	color:  grey;
-}
-.ectomorph tr th{
-	padding-right:1%;
-}
+/*for the slide show to take half the page on the main page*/
 #myCarousel{
 width:50%;
 }
-
+/*for the paragraphs in the cancer flu and hiv pages*/
 #ecto{
 	
 	font-size:x-medium;
@@ -198,20 +164,8 @@ padding:2%;
 border-radius:2%;
 	
 }
-#meso{
-		font-size:x-medium;
-	color: #5A5858;
-	width: 100%;
-	box-shadow : 1em 1em 1em  #7C7C7C;
-background-color:white;	
-margin-right:5%;
-margin-left:1%;
-margin-top:1%;
-margin-bottom:5%;
-padding:2%;
-border-radius:2%;		
 }
-}
+/*next we will have changes to */
 @media only screen and (min-width: 991px){
 .prep2{
 margin-left: 24em;
@@ -427,6 +381,56 @@ position:relative;
 }
 @media only screen and (min-width: 768px) and (max-width: 990px){
  
+#menu li {
+    display: inline;
+	width: 100%;
+
+
+}
+#menu li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	width:100%;
+
+}
+#menu li a:hover {
+    background-color: green;
+}
+#menu .sousMenu
+{
+              list-style-type: none;
+              margin: 0;
+              padding: 0;
+              border: 0;
+              display: none;
+			  background-color:lightgreen;
+			  width:100%;
+
+}
+#menu .sousMenu li
+{
+              float: none;
+              margin: 0;
+              padding: 0;
+              border: 0;
+              width: 100%;
+              border-top: 1px solid transparent;
+              border-right: 1px solid transparent;
+              font-size: 100%;
+			  width:100%;
+}
+
+#menu .sousMenu li a:visited 
+{
+              display: block;
+              color: #FFFFFF;
+              margin: 0;
+              border: 0;
+              text-decoration: none;
+}
 .prep{
 width: 20em;
 height: 25em;
